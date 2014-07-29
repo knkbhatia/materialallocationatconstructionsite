@@ -1,0 +1,765 @@
+﻿.myLoginBody
+{
+	margin: 0px;
+	text-align: center;
+}
+form
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#myTableMain
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-size: 100%;
+	width: expression(document.body.clientWidth>778?document.body.clientWidth:778);
+}
+#myTopBrandBannerTable
+{
+	border: none 0px #FFFFFF;
+	background-color: #1e61a9;
+}
+#myTopBrandBanner1
+{
+}
+.brandImg
+{
+	width: 136px;
+	height: 42px;
+	border: none 0px #FFFFFF;
+}
+#myTopBrandBanner
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#82ade2', endColorStr='#FFFFFF', gradientType='0');
+}
+#myMiddleBannerTable
+{
+	width: 100%; /*font:100% Tahoma, Helvetica;*/
+	font: 100% Verdana, Helvetica;
+}
+.myMiddleBrandBannerTable
+{
+	border: none 0px #FFFFFF;
+	background-color: #82ade2;
+}
+#myMiddleBrandBanner
+{
+}
+.brandImg
+{
+	width: 136px;
+	height: 42px;
+	border: none 0px #FFFFFF;
+}
+#myMiddleBanner
+{
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#82ade2', endColorStr='#FFFFFF', gradientType='1');
+}
+#myMiddleBrandBannerBlank
+{
+	background-color: #4B92E9;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#FFFFFF', gradientType='1');
+}
+#myBottomBannerTable
+{
+	background-color: dodgerblue;
+	border: none 0px #FFFFFF;
+}
+#myBottomBrandBannerTable
+{
+	border: none 0px #FFFFFF;
+	background-color: #1e61a9;
+}
+#myBottomBrandBanner
+{
+}
+.brandImg
+{
+	width: 136px;
+	height: 42px;
+	border: none 0px #FFFFFF;
+}
+#myBottomBanner
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#82ade2', gradientType='0');
+}
+.myHeaderLink
+{
+	border-right: #a1c6eb 1px;
+	padding-right: 5px;
+	border-top: #a1c6eb 1px;
+	display: block;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	font: bold 70% Helvetica, Tahoma;
+	border-left: #a1c6eb 1px;
+	color: White;
+	padding-top: 1px;
+	border-bottom: #a1c6eb 1px;
+	text-decoration: none;
+}
+.myHeaderLink:hover
+{
+	padding-right: 5px;
+	display: block;
+	padding-left: 5px;
+	padding-bottom: 1px;
+	font: bold 70% Helvetica, Tahoma;
+	cursor: hand;
+	color: #cc33cc;
+	padding-top: 1px;
+	text-decoration: underline;
+}
+.myLoginTopFrame
+{
+	font-weight: bold;
+	font-size: 20pt;
+	color: White;
+	font-family: Verdana;
+	background: transparent;
+}
+.myLoginBodyText
+{
+	margin: 0px;
+	font-weight: normal;
+	font-size: 9pt;
+	color: Black;
+	font-family: Verdana;
+	background-color: Transparent;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 12px;
+	vertical-align: super;
+}
+.myLoginText
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: floralWhite;
+	font-family: Verdana;
+	font-size: 9pt;
+	color: Black;
+}
+.myLoginButton
+{
+	font-size: 9pt;
+	font-family: Verdana;
+}
+.myLoginTopLabel
+{
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Verdana;
+	background-color: #82ade2;
+	color: White;
+}
+.myLoginLabel
+{
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	font-family: Verdana;
+	background-color: #e5eff8;
+}
+.myLoginCount
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: black;
+	font-family: Helvetica;
+	background: transparent;
+}
+.myLoginCountHeader
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: #3399ff;
+	font-family: Helvetica;
+	background: transparent;
+}
+.myLoginMessage
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	background-color: #e5eff8;
+}
+.myLoginInfo
+{
+	font-weight: normal;
+	font-size: 8pt;
+	color: #003399;
+	font-family: Verdana;
+	text-align: left;
+}
+.myError
+{
+	color: Red;
+	font-family: verdana;
+	font-size: 8pt;
+}
+.myLeftMenu
+{
+	font-weight: normal;
+	font-size: 8pt;
+	color: Black;
+	font-family: Verdana;
+	background-color: White;
+	forecolor: black;
+}
+.myLeftMenuBody
+{
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	background-color: #c3d9ff;
+}
+.myLeftMenuTable
+{
+	padding: 0;
+	border: 0;
+	width: 190px;
+	background-color: White;
+}
+.myTopMenu
+{
+	font-weight: normal;
+	font-size: 8pt;
+	color: Black;
+	font-family: Verdana;
+	background: transparent;
+}
+.myPanel
+{
+	font-weight: bold;
+	font-size: 8pt;
+	font-family: Verdana; /*border-style:ridge; 	border-width:1px; 	width:400px; 	Border-Color:Blue;*/
+}
+.myPageHeader
+{
+	background: #c3d9ff;
+	font-weight: bold;
+	color: Black;
+	font-family: Verdana;
+	font-size: 20pt;
+	text-align: center;
+}
+.myPageSubHeader
+{
+	background: #c3d9ff;
+	font-weight: bold;
+	color: Black;
+	font-family: Verdana;
+	font-size: 10pt;
+	text-align: left;
+	height: 16pt;
+	vertical-align: middle;
+	text-indent: 10pt;
+}
+.myError
+{
+	color: Red;
+	font-family: verdana;
+	font-size: 8pt;
+}
+.myLabel
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: #3399ff;
+	font-family: Verdana;
+}
+.myLabeldisp
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color:Black;
+	font-family: Verdana;
+}
+.myInput
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	margin-left: 0px;
+}
+.myInputEdit
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	margin-left: 0px;
+	background-color: #FAF8CC;
+}
+.myHyperlink
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: left;
+	color: Blue;
+}
+.myHyperlinkDisabled
+{
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: left;
+	color: White;
+}
+.myStar
+{
+	color: #cc0000;
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: left;
+	font-weight: bold;
+}
+.myButton
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+}
+.myGridHeader
+{
+	background: #82ade2;
+	font-weight: bold;
+	color: white;
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: center;
+}
+.myDetailHeaderFooter
+{
+	background: #82ade2;
+	font-weight: bold;
+	color: white;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.myGridAlternatingItemStyle
+{
+	background-color: #e5eff8;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridTextItem
+{
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridTextItem:hover, .myGridAlternatingItemStyle:hover
+{
+	background-color: #CDCDCD;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridEditTextItem
+{
+	background-color: PeachPuff;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridSelectedItemStyle
+{
+	background-color: PeachPuff;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridHighlightedItemStyle
+{
+	background-color: #CC99CC;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myGridPager
+{
+	background: #82ade2;
+	font-weight: bold;
+	color: white;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.myGridHeadingItemStyle
+{
+	background-color: #CC99CC;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+	font-weight:bold;
+}
+.myGridSubHeadingItemStyle
+{
+	background-color:Yellow;
+	font-family: Verdana;
+	color: Black;
+	font-size: 8pt;
+}
+.myInputDisplay
+{
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	background-color: AliceBlue;
+	border-width: 0;
+}
+.myValidator
+{
+	font-size: 8pt;
+	color: red;
+	font-family: Verdana;
+	text-align: left;
+}
+.myTopMenuDynamicHoverStyle
+{
+	border-color: Black;
+	border-width: 1px;
+	background-color: Silver;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+}
+
+.myTopMenuStaticHoverStyle
+{
+	border-color: Black;
+	background-color: white;
+	border-width: 1px;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+}
+.myTopMenuDynamicMenuItemStyle
+{
+	border-color: white;
+	border-width: 1px;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+}
+.myTopMenuDynamicMenuStyle
+{
+	border-color: black;
+	background-color: white;
+	border-width: 1px;
+	color: Black;
+}
+.myTopMenuStaticMenuItemStyle
+{
+	padding-left: 0px;
+	padding-left: 0px;
+	font-size: 8pt;
+	color: black;
+	font-family: Verdana;
+	font-weight: bold;
+}
+.myTopMenuStaticMenuStyle
+{
+}
+.tdGToolbar
+{
+	border: solid 0px #1E77D3;
+	padding: 0px 4px 0px 4px;
+	font-size: 100%;
+}
+.tdGToolbarEnd
+{
+	padding-right: 30px;
+}
+.mySubLabel
+{
+	font-weight: bold;
+	font-size: 8pt;
+	color: #0033cc;
+	font-family: Verdana;
+}
+.myPageHeaderFirstPage1
+{
+	background: #660000;
+	font-weight: bold;
+	color: antiquewhite;
+	font-family: Arial, Verdana;
+	font-size: 10pt;
+	text-align: center;
+}
+.myInputFirstPage1
+{
+	font-size: 8pt;
+	color: #660000;
+	font-family: Arial, Verdana;
+}
+.myPageHeaderFirstPage
+{
+	background: mediumslateblue;
+	font-weight: bold;
+	color: lemonchiffon;
+	font-family: Arial, Verdana;
+	font-size: 10pt;
+	text-align: center;
+}
+.myInputFirstPage
+{
+	font-size: 8pt;
+	color: #000099;
+	font-family: Arial, Verdana;
+}
+.AutoExtender
+{
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	border: solid 1px #006699;
+	line-height: 20px;
+	padding: 10px;
+	background-color: White;
+	margin-left: 10px;
+}
+.AutoExtenderList
+{
+	border-bottom: dotted 1px #006699;
+	cursor: pointer;
+	color: Maroon;
+}
+.AutoExtenderHighlight
+{
+	color: White;
+	background-color: #006699;
+	cursor: pointer;
+}
+#divwidth
+{
+	width: 150px !important;
+}
+#divwidth div
+{
+	width: 150px !important;
+}
+.pnlCSS
+{
+	font-weight: bold;
+	cursor: pointer;
+	border: solid 1px #c0c0c0;
+}
+.popUpStyle
+{
+	font-size: 10pt;
+	font-family: Verdana;
+	background-color: #CCCCCC;
+	padding: 0px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+.popUpDivStyle
+{
+	background-color: white;
+	border-width: thin;
+	border-style: solid;
+	border-color: Black;
+}
+.drag
+{
+	background-color: Orange;
+	cursor: move;
+	border: solid 1px black;
+}
+
+.ModalWindow
+{
+	border: solid1px#c0c0c0;
+	background: #f0f0f0;
+	padding: 0px10px10px10px;
+	position: absolute;
+	top: -1000px;
+}
+.modalBackground
+{
+	background-color: #CCCCFF;
+	filter: alpha(opacity=40);
+	opacity: 0.5;
+}
+.updateProgress
+{
+	border-width: 1px;
+	border-style: solid;
+	background-color: DarkGray;
+	position: absolute;
+	width: 180px;
+	height: 65px;
+	color: White;
+}
+
+
+
+
+
+/*AutoComplete flyout */
+.autocomplete_completionListElement
+{
+	width: 400px !important;
+	margin: 0px !important;
+	background-color: inherit;
+	color: windowtext;
+	border: buttonshadow;
+	border-width: 1px;
+	border-style: solid;
+	cursor: 'default';
+	overflow: auto;
+	max-height: 200px;
+	font-family: Tahoma;
+	font-size: small;
+	text-align: left;
+	list-style-type: none;
+}
+/* AutoComplete highlighted item */
+.autocomplete_highlightedListItem
+{
+	background-color: #66CCFF;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+.autocomplete_listItem
+{
+	background-color: window;
+	color: windowtext;
+	padding: 1px;
+}
+
+
+
+.GVFixedHeader
+{
+	background: #82ade2;
+	font-weight: bold;
+	color: white;
+	font-family: Verdana;
+	font-size: 8pt;
+	text-align: center;
+	position: relative;
+	top: expression(this.parentNode.parentNode.parentNode.parentNode.scrollTop-2);
+	float: none;
+	z-index: 99;
+}
+/*.GVFixedHeader { font-weight:bold; background-color: #82ade2; position:relative; font-size:8pt;font-family:Verdana;
+                 top:expression(document.getElementById("divLeaveApproval_History").scrollTop-2);float:none;z-index:99;}*/
+
+.GVFixedFooter
+{
+	font-weight: bold;
+	background-color: #5D7B9D;
+	position: relative;
+	font-size: 12px;
+	font-family: Arial;
+	color: White;
+	height: 20px;
+	bottom: expression(getScrollBottom(this.parentNode.parentNode.parentNode.parentNode));
+}
+
+
+
+.page
+{
+	/*width: 960px;*/
+	width: 99%;
+	background-color: #fff;
+	margin: 5px auto 0px auto;
+	border: 1px solid #496077;
+	height:500px;
+}
+
+body
+{
+	background: #b6b7bc;
+	font-size: .80em;
+	font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #696969;
+	text-align: center;
+}
+
+
+.HelpPopUpStyle
+{
+	background-color: White;
+	border-width: thick;
+	border-style: solid;
+	border-color: #0099CC;
+}
+
+
+
+.MyTabStyle .ajax__tab_header
+{
+	font-family: Arial;
+	font-size: 12px;
+	display: block;
+}
+.MyTabStyle .ajax__tab_header .ajax__tab_outer
+{
+	border-color: #222;
+	color: #222;
+	padding-left: 5px;
+	margin-right: 1px;
+	border: solid 1px #d7d7d7;
+}
+.MyTabStyle .ajax__tab_header .ajax__tab_inner
+{
+	border-color: #666;
+	color: black;
+	padding: 1px 5px 1px 0px;
+}
+.MyTabStyle .ajax__tab_hover .ajax__tab_outer
+{
+	background-color: activecaption;
+}
+.MyTabStyle .ajax__tab_hover .ajax__tab_inner
+{
+	color: white;
+}
+.MyTabStyle .ajax__tab_active .ajax__tab_outer
+{
+	border-bottom-color: #ffffff;
+	background-color: steelblue;
+}
+.MyTabStyle .ajax__tab_active .ajax__tab_inner
+{
+	color: white;
+	border-color: #333;
+}
+
+
+
+.myTable
+{
+	border-style: none;
+	border-color: inherit;
+	border-width: 1px;
+	padding: 0px;
+	margin: 0px;
+	/*width: 99%;*/
+	border-spacing: 0px;
+}
+.ModalPopupBG
+{
+	background-color: #666699;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+.HellowWorldPopup
+{
+	min-width: 200px;
+	min-height: 150px;
+	background: white;
+}

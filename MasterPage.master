@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/EILDesign.css" rel="stylesheet" type="text/css" />
+</head>
+<body >
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" >
+    </asp:ScriptManager>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <img src="Images/logo.jpg" style="height: 50px; width: 63px" />
+                    Material Allocation at construction site&nbsp;
+                </h1>
+                &nbsp;</div>
+            <div id="lg" runat="server" style="float: right">
+                <asp:Button ID="logout" runat="server" Text="Log Out" Width="83px" OnClick="logout_Click"
+                    CssClass="myButton" />
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Directories">
+                            <asp:MenuItem NavigateUrl="~/Dir_Item.aspx" Text="Item" Value="Item"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Dir_Contractor.aspx" Text="Contractor" Value="Contractor">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/ITEMREQ.aspx" Text="Request" />
+                        <asp:MenuItem NavigateUrl="~/allocation.aspx" Text="Allocation" />
+                        <asp:MenuItem NavigateUrl="~/ISSUE.aspx" Text="Issue" />
+                        <asp:MenuItem Text="Reports">
+                            <asp:MenuItem NavigateUrl="~/Req_Report.aspx" Text="Request Report" Value="reqrep">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Allocation_Report.aspx" Text="Allocation Report" Value="allorep">
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Issue_report.aspx" Text="Issue Report" Value="issuerep">
+                            </asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+              
+            </div>
+            
+        </div>
+        
+      
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer" >
+        <img alt="EIL" class="style1" src="Images/eil_logo.jpg"  />
+        <div style="float:right"> 
+        Copyrights EIL- All rights reserved.
+        </div>
+    </div>
+    </form>
+</body>
+</html>
